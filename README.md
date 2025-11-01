@@ -30,8 +30,8 @@ Step 3: AWS Glue Crawler
 - Verified S3 Parquet files and Glue Table.
 - Query successful in Athena.
 
-### Example Athena Query:
-```sql
+ Example Athena Query:
+sql
 SELECT category_id, COUNT(*) AS video_count
 FROM youtube_processed
 GROUP BY category_id
